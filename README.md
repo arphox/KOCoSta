@@ -17,4 +17,14 @@ My ultimate main goal is **maintainability** because that is what makes peoples'
 - I highly value **simplicity**
   - because it reduces cognitive brain load, allowing to work more easily.
 - I value **consistency**
-  - because it increases maintainability: it simplifies understanding and collaboration, reduces cognitive load, eases troubleshooting, makes it easier to automate things.    
+  - because it increases maintainability: it simplifies understanding and collaboration, reduces cognitive load, eases troubleshooting, makes it easier to automate things.
+
+## Further practices used in this repo
+
+These are not included in my "general standards", but tailored specifically for this repository.
+
+I don't explicitly recommend them, use them on your own judgement.
+
+**In this repository:**
+
+- I try to **avoid** hyperlinking important stuff from the internet to reduce maintenance cost. Links may break over time but name of concepts rarely change.
