@@ -19,6 +19,14 @@ My ultimate main goal is **maintainability** because that is what makes peoples'
 - I value **consistency**
   - because it increases maintainability: it simplifies understanding and collaboration, reduces cognitive load, eases troubleshooting, makes it easier to automate things.
 
+## Usability
+
+- Since _everything is a tradeoff_, there are no best practices, only **good practices**.
+- I try to present good-in-general practices, but always use your own judgement.
+- Always think critically and don't blindly believe what I write.
+
+**Automation**: when configuring automation, always make sure it actually works. Sometimes additional general setup or tooling is required.
+
 ## Further practices used in this repo
 
 These are not included in my "general standards", but tailored specifically for this repository.
