@@ -1,0 +1,20 @@
+﻿# Title = KOCoSta — Károly Ozsvárt's Coding Standards
+# Subtitle = C# .NET development .editorconfig file
+# Version = 0.0.1
+# Source = https://github.com/arphox/KOCoSta/blob/main/dotnet/.editorconfig
+
+# C# files
+[*.{cs,csx,cake}]
+################################################################################
+# File-scoped namespaces
+# ID = 031ad72c773047b8be67d6e8ed8eccb9
+################################################################################
+# Namespace declaration preferences (IDE0160 and IDE0161)
+csharp_style_namespace_declarations = file_scoped:warning
+
+# IDE0160: Use block-scoped namespace
+dotnet_diagnostic.IDE0160.severity = none
+
+# IDE0161: Use file-scoped namespace
+dotnet_diagnostic.IDE0161.severity = warning
+################################################################################
