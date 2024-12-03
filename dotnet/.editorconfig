@@ -18,3 +18,16 @@ dotnet_diagnostic.IDE0160.severity = none
 # IDE0161: Use file-scoped namespace
 dotnet_diagnostic.IDE0161.severity = warning
 ################################################################################
+
+################################################################################
+# 'using' directive placement
+# ID = 2e10dd93856c44aab3e89c4c1c9da0e9
+################################################################################
+# IDE0065: 'using' directive placement
+csharp_using_directive_placement = outside_namespace:warning
+dotnet_diagnostic.IDE0065.severity = warning
+
+# SA1200: UsingDirectivesMustBePlacedCorrectly
+# Turned off, because checked by IDE0065
+dotnet_diagnostic.SA1200.severity = none
+################################################################################
